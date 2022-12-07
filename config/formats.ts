@@ -2085,7 +2085,7 @@ export const Formats: FormatList = [
 							this.queue.cancelMove(pokemon);
 						} else {
 							// in gen 3, fainting skips all moves and switches
-							this.queue.cancelAction(pokemon);
+							//this.queue.cancelAction(pokemon);
 						}
 					}
 				}
@@ -2575,7 +2575,7 @@ export const Formats: FormatList = [
 		mod: 'gen3',
 		// searchShow: false,
 		gameType: 'doubles',
-		ruleset: ['Standard', '!Switch Priority Clause Mod'],
+		ruleset: ['Standard'],
 		banlist: ['Uber', 'Soul Dew', 'Swagger'],
 		unbanlist: ['Deoxys-Defense', 'Latias', 'Wobbuffet', 'Wynaut'],
 	},
@@ -3801,7 +3801,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen3',
 		searchShow: false,
-		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause'],
+		ruleset: ['Standard', 'Deoxys Camouflage Clause'],
 		banlist: ['Wobbuffet + Leftovers'],
 	},
 	{
